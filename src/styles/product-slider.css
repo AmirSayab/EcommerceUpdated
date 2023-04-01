@@ -1,0 +1,33 @@
+.product-slider {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .product-slider h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-slider p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-slider button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  .product-slider button:hover {
+    background-color: #005fa3;
+  }

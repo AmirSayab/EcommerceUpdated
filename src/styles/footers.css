@@ -1,0 +1,103 @@
+
+.footer-comlogo {
+    width: 85px;
+    height: 80px;
+    filter: invert(8);
+  }
+.footer-content-all{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 0rem;
+    background-color: #F3F6F5;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.footer-content-side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-evenly;
+    /* border: 2px solid rebeccapurple; */
+}
+.footer-company{
+    width: 30%;
+}
+.footer-address{
+    margin-top: 1rem;
+}
+.footer-myaccount{
+    width: 20%;
+}
+.footer-help{
+    width: 20%;
+}
+.footer-shop{
+    width: 20%;
+}
+.footer-faq{
+    width: 20%;
+}
+.footer-content-copyright{
+    width: 100%;
+}
+.footer-heading {
+    width: 100%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #07484a;
+  }
+  .footer-sub-heading {
+    width: 100%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #07484a;
+  }
+  #copyright-para{
+    margin-top: 2rem;
+  }
+  .footer-icons{
+    margin: 0% 5%;
+  }
+  #icon-fb{
+    margin-left: 0px;
+  }
+
+  @media (max-width:998px) {
+    .footer-myaccount{
+        width: 50%;
+    }
+    .footer-help{
+        width: 50%;
+    }
+    .footer-shop{
+        width: 50%;
+    }
+    .footer-faq{
+        width: 50%;
+    }
+  }
+  @media (max-width:552px) {
+    .footer-content-all{
+        flex-wrap: wrap-reverse;
+    }
+    .footer-content-side{
+        width: 80%;
+    }
+    .footer-company{
+        width: 80%;
+    }
+    .footer-shop{
+        margin-top: 1rem;
+    }
+    .footer-faq{
+        margin-top: 1rem;
+    }
+   
+  }

@@ -1,0 +1,33 @@
+.product-card-container{
+padding: 60px 40px;
+gap: 40px;
+width: 300px;
+height: 400px;
+background: #CAF3E5;
+border-radius: 16px;
+margin: 10px;
+}
+.product-card-content-bold{
+ width: 199px;
+height: 30px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+color: #70908B;
+}
+.product-card-content-light{
+    width: 199px;
+   height: 30px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 36px;
+   color: #70908B;
+   }
+   .product-card-image img{
+    width: 200px;
+    height: 230px;
+   }

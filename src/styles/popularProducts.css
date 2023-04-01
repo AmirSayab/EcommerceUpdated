@@ -1,0 +1,44 @@
+.popular-product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/chair2.png");
+  background-position: -120px;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  max-width: 100vw;
+  margin: 5rem 0rem 5rem 0rem;
+}
+.popular-product-cards {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 270px; */
+  overflow-x: hidden;
+}
+#popular-product-h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #07484a;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.popular-btn {
+  font-family: "Playfair Display";
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 20px;
+  gap: 18px;
+  width: 230px;
+  height: 40px;
+  background: #07484a;
+  border-radius: 10px;
+  color: #ffffff;
+}
